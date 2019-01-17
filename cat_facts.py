@@ -36,3 +36,4 @@ def send_cat_fact(client, facts):
 
 for fact in facts:
     send_cat_fact(client, facts)
+    break
